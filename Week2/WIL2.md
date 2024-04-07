@@ -11,6 +11,15 @@ Repository에서 작업 계획, 토론 및 추적을 위해 활용
 + 기존 Branch에서 분기되어 생성되는 별도의 작업 공간
 + *fork와 달리* 같은 Repository에 생성됨
 
+|Code|Description|
+|:--:|:--:|
+|git branch|현재 브랜치 확인|
+|git branch -a|모든 브랜치 확인|
+|git branch "<브랜치 이름>"|브랜치 생성|
+|git branch -D "<브랜치 이름>"|브랜치 삭제|
+|git checkout "<브랜치 이름>"|브랜치 이동|
+|git checkout -b "<브랜치 이름>"|브랜치 생성 후 이동|
+
 ### Branch의 종류
 #### 1. Main Branch
 수명이 무한하다.
