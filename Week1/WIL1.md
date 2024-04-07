@@ -11,12 +11,13 @@
 ![tracked=unmodified, modified, staged](<파일의 생명주기-1.png>)
 
 + ### 최초 설정
-1. git config --global user.name " "
-2. git config --global user.email " "
-
+```python
+git config --global user.name " "
+git config --global user.email " "
+```
 + ### 파일 관리
-1. *git init* 디렉토리에 git 저장소 만들기
-2. *git add* 관리 대상 등록
+1. `git init` 디렉토리에 git 저장소 만들기
+2. `git add` 관리 대상 등록
 
    |Code|Description|
    |:--:|:--:|
@@ -33,8 +34,8 @@
    |chore|코드 외 설정 수정|
    |docs|문서화|
    |test|테스트 코드|
-4. *rm -r .git* 관리 중지
-5. *git rm --cached <파일>* unstage로 되돌림
+4. `rm -r .git` 관리 중지
+5. `git rm --cached` <파일> unstage로 되돌림
 
 
 # GITHUB
@@ -50,14 +51,18 @@
 ![Local=GIT, Remote=GITHUB](image.png)
 
 + ### GITHUB 올리기 전
-1. git remote add origin <주소>
-2. git branch -M main
-3. git push -u origin main
+```python
+git remote add origin <주소>
+git branch -M main
+git push -u origin main
+```
    
 + ### GITHUB에 올리기
-1. git add <파일>
-2. git commit -m "commit message"
-3. git push origin main
+```python
+git add <파일>
+git commit -m "commit message"
+git push origin main
+```
    
 
 ___
